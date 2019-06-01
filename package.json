@@ -1,0 +1,17 @@
+{
+  "name": "@osvlabs/cordova-plugin-DecodeQRImage",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-DecodeQRImage",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "vitta",
+  "license": "MIT"
+}
