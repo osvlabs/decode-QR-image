@@ -4,17 +4,19 @@
     <js-module name="Decode-qr-image" src="www/Decode-qr-image.js">
         <clobbers target="plugins.decodeQRImage" />
     </js-module>
-    	<platform name="android">
-            <config-file target="res/xml/config.xml" parent="/*">
-                <feature name="decodeQRImage">
-                    <param name="android-package" value="com.vitta"/>
-                </feature>
-            </config-file>
-            	<source-file src="src/android/com/vitta/DecodeQRImage.java" target-dir="src/com/vitta" />
-        </platform>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="DecodeQRImage">
+                <param name="android-package" value="com.vitta.DecodeQRImage"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/com/vitta/DecodeQRImage.java" target-dir="src/com/vitta" />
+        <source-file src="src/android/com/vitta/QRCodeDecoder.java" target-dir="src/com/vitta" />
+        <framework src="com.google.zxing:core:3.4.0" />
+    </platform>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="decodeQRImage">
+            <feature name="DecodeQRImage">
                 <param name="ios-package" value="DecodeQRImage"/>
             </feature>
         </config-file>
