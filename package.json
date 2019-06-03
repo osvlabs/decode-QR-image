@@ -5,13 +5,28 @@
   "cordova": {
     "id": "cordova-plugin-DecodeQRImage",
     "platforms": [
-      "ios"
+      "ios",
+      "android"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osvlabs/decode-QR-image"
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-ios"
+    "cordova-ios",
+    "plugin",
+    "qrcode",
+    "scan",
+    "qrImage",
+    "qrCodeImage"
   ],
   "author": "vitta",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osvlabs/decode-QR-image/issues"
+  },
+  "homepage": "https://github.com/osvlabs/decode-QR-image"
+
 }
