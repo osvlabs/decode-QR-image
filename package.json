@@ -1,6 +1,6 @@
 {
   "name": "@osvlabs/cordova-plugin-decode-qr-image",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "cordova": {
     "id": "cordova-plugin-DecodeQRImage",
